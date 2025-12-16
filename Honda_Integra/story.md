@@ -1,3 +1,7 @@
+---
+title: Honda Integra
+weight: 100
+---
 # Honda Integra (2017)
 
 ## First Car - Made Me Realize That Cars Can Actually Make Money

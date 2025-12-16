@@ -62,6 +62,43 @@ def optimize_image(src_path, dest_path):
 def is_markdown(filename):
     return filename.lower().endswith('.md')
 
+def parse_frontmatter(path):
+    """
+    Parses basic YAML frontmatter between --- lines.
+    Returns a dictionary of metadata.
+    """
+    metadata = {}
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        # Check if file starts with frontmatter delimiter
+        if not lines or lines[0].strip() != '---':
+            return metadata
+        
+        for line in lines[1:]:
+            line = line.strip()
+            if line == '---':
+                break
+            if ':' in line:
+                key, value = line.split(':', 1)
+                # Try to cast to number if possible
+                val = value.strip()
+                try:
+                    if '.' in val:
+                         val = float(val)
+                    else:
+                         val = int(val)
+                except ValueError:
+                    pass # Keep as string
+                
+                metadata[key.strip()] = val
+    except Exception as e:
+        logging.warning(f"Failed to parse frontmatter for {path}: {e}")
+    
+    return metadata
+
+
 def migrate():
     """
     One-time migration:
@@ -141,6 +178,7 @@ def migrate():
             elif is_markdown(filename):
                 asset_entry["type"] = "markdown"
                 asset_entry["location"] = "local" # Stays in repo
+                asset_entry["metadata"] = parse_frontmatter(original_path)
 
             assets.append(asset_entry)
 
@@ -233,19 +271,15 @@ def sync():
                 # Check if exists in new_assets (it shouldn't came from Drive loop)
                 # But check if it was in known_paths?
                 
-                if rel_path in known_paths:
-                    # Update it if needed, or just keep it
-                    # We might want to ensure it is in the list we are building
-                    # If we already added it via the drive loop (unlikely for MD), skip
-                    # Use a set to track added paths to avoid dupes?
-                    pass 
-                
-                # Ideally we rebuild the list.
-                # Just add it if not already in new_assets
-                
+                # Always re-parse metadata for markdown files to capture updates
+                full_path = os.path.join(root, filename)
+                metadata = parse_frontmatter(full_path)
+
                 exists = False
                 for a in new_assets:
                     if a['original_path'] == rel_path:
+                        # Update metadata if it exists
+                        a['metadata'] = metadata
                         exists = True
                         break
                 
@@ -254,7 +288,8 @@ def sync():
                      asset_entry = {
                         "original_path": rel_path,
                         "type": "markdown",
-                        "location": "local"
+                        "location": "local",
+                        "metadata": metadata
                     }
                      new_assets.append(asset_entry)
 
