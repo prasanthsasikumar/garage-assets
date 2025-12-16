@@ -1,7 +1,7 @@
 ---
 title: Subaru Legacy (2001)
 type: car
-weight: 10
+weight: 100
 ---
 # Subaru Legacy (2001)
 

@@ -3474,7 +3474,11 @@
     "original_path": "Subaru_Legacy_Humayun/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Subaru Legacy (Humayun)",
+      "weight": 1,
+      "type": "car"
+    }
   },
   {
     "original_path": "Yamaha_R3/story.md",
@@ -3490,25 +3494,71 @@
     "original_path": "Subaru_Legacy/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Subaru Legacy (2001)",
+      "type": "car",
+      "weight": 100
+    }
   },
   {
     "original_path": "Honda_CRV/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Honda CRV",
+      "type": "car",
+      "weight": 10
+    }
   },
   {
     "original_path": "Subaru_Legacy_Dogcar/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Subaru Legacy (Blue - \"Dog Car\")",
+      "type": "car",
+      "weight": 10
+    }
+  },
+  {
+    "original_path": "Yamaha_R15/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "Yamaha R15",
+      "type": "motorcycle",
+      "weight": 50
+    }
+  },
+  {
+    "original_path": "TVS_Apache_RTR/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "TVS Apache RTR",
+      "type": "motorcycle",
+      "weight": 50
+    }
   },
   {
     "original_path": "Nissan_Primera/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Nissan Primera (2018)",
+      "type": "car",
+      "weight": 10
+    }
+  },
+  {
+    "original_path": "Hyosung_GT250R/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "Hyosung GT250R",
+      "type": "motorcycle",
+      "weight": 50
+    }
   },
   {
     "original_path": "Subaru_Legacy_Parts/story.md",
@@ -3524,13 +3574,21 @@
     "original_path": "Subaru_Legacy_Clean/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Subaru Legacy (Clean)",
+      "type": "car",
+      "weight": 10
+    }
   },
   {
     "original_path": "Honda_Integra/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Honda Integra",
+      "weight": 100,
+      "type": "car"
+    }
   },
   {
     "original_path": "Subaru_legacy_silver/story.md",
