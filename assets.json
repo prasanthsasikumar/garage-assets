@@ -3474,9 +3474,16 @@
     "original_path": "Subaru_Legacy_Humayun/story.md",
     "type": "markdown",
     "location": "local",
+    "metadata": {}
+  },
+  {
+    "original_path": "Yamaha_R3/story.md",
+    "type": "markdown",
+    "location": "local",
     "metadata": {
-      "title": "Subaru Legacy (Humayun)",
-      "weight": 1
+      "title": "Yamaha R3",
+      "weight": 50,
+      "type": "motorcycle"
     }
   },
   {
@@ -3507,7 +3514,11 @@
     "original_path": "Subaru_Legacy_Parts/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {}
+    "metadata": {
+      "title": "Subaru Legacy Parts",
+      "type": "garage",
+      "weight": 10
+    }
   },
   {
     "original_path": "Subaru_Legacy_Clean/story.md",
@@ -3519,10 +3530,7 @@
     "original_path": "Honda_Integra/story.md",
     "type": "markdown",
     "location": "local",
-    "metadata": {
-      "title": "Honda Integra",
-      "weight": 100
-    }
+    "metadata": {}
   },
   {
     "original_path": "Subaru_legacy_silver/story.md",

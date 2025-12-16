@@ -1,4 +1,9 @@
-# Subaru Legacy (Silver - Parts Car)
+---
+title: Subaru Legacy Parts
+type: garage
+weight: 10
+---
+# Subaru Legacy Parts(Silver - Parts Car)
 
 It was the same as mine, but in station wagon form. It had great exhaust, lots of goodies like boost gauge etc. and good panels. The cam belt broke on this one and the owner just wanted to get rid of it.
 

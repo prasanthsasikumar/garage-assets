@@ -1,6 +1,6 @@
----
 title: Honda Integra
 weight: 100
+type: car
 ---
 # Honda Integra (2017)
 
