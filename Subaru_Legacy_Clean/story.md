@@ -1,3 +1,8 @@
+---
+title: Subaru Legacy (Clean)
+type: car
+weight: 10
+---
 # Subaru Legacy (Clean)
 
 Very rare Legacy with low kms which was recently imported from Japan. It was great interior, pristine paint and very healthy engine.

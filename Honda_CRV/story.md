@@ -1,3 +1,8 @@
+---
+title: Honda CRV
+type: car
+weight: 10
+---
 # Honda CRV
 
 We got this car because it was a steal. We got it for $350 NZD - with fog lamps, sunroof and lots of other accessories.

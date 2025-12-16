@@ -1,3 +1,8 @@
+---
+title: Nissan Primera (2018)
+type: car
+weight: 10
+---
 # Nissan Primera (2018)
 
 At this point I have made money on one car (the Integra) and got a couple of cars for my friends for cheap. So I decided that it would be great to find a cheap car and fix it up and sell it. So I bought this from the Turners auction for end-of-life cars.

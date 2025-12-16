@@ -1,3 +1,8 @@
+---
+title: Subaru Legacy (2001)
+type: car
+weight: 10
+---
 # Subaru Legacy (2001)
 
 ## One of the Forever Cars

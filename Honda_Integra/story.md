@@ -1,3 +1,4 @@
+---
 title: Honda Integra
 weight: 100
 type: car

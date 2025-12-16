@@ -1,3 +1,4 @@
+---
 title: Subaru Legacy (Humayun)
 weight: 1
 type: car

@@ -1,3 +1,8 @@
+---
+title: Subaru Legacy (Blue - "Dog Car")
+type: car
+weight: 10
+---
 # Subaru Legacy (Blue - "Dog Car")
 
 This came up in TradeMe for $1000 and the guy was happy to give it for $550.
