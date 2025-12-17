@@ -1100,6 +1100,36 @@
     "optimized_path": "Mitsubishi_L300/IMG_20180505_154215.jpg"
   },
   {
+    "original_path": "KTM_RC_200/IMG_4465.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "KTM_RC_200/IMG_4465.jpg"
+  },
+  {
+    "original_path": "KTM_RC_200/IMG_2470.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "KTM_RC_200/IMG_2470.jpg"
+  },
+  {
+    "original_path": "KTM_RC_200/IMG_5303.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "KTM_RC_200/IMG_5303.jpg"
+  },
+  {
+    "original_path": "KTM_RC_200/IMG_5300.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "KTM_RC_200/IMG_5300.jpg"
+  },
+  {
+    "original_path": "KTM_RC_200/49DEF13B-018E-41F8-8D96-244EB15E7C9F.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "KTM_RC_200/49DEF13B-018E-41F8-8D96-244EB15E7C9F.jpg"
+  },
+  {
     "original_path": "Honda_CRV/Honda_CRV_PHOTO-2025-12-15-21-53-57 3.jpg",
     "type": "image",
     "location": "hybrid",
@@ -5111,6 +5141,16 @@
     }
   },
   {
+    "original_path": "TGB_XRace/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "TGB XRace",
+      "weight": 50,
+      "type": "motorcycle"
+    }
+  },
+  {
     "original_path": "Subaru_Legacy/story-06-family-trip.md",
     "type": "markdown",
     "location": "local",
@@ -5340,9 +5380,29 @@
     }
   },
   {
+    "original_path": "TGB_Tapo/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "TGB Tapo",
+      "weight": 50,
+      "type": "motorcycle"
+    }
+  },
+  {
     "original_path": "Subaru_legacy_silver/story.md",
     "type": "markdown",
     "location": "local",
     "metadata": {}
+  },
+  {
+    "original_path": "CFMOTO_MT650/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "title": "CFMOTO MT650",
+      "weight": 50,
+      "type": "motorcycle"
+    }
   }
 ]
