@@ -84,13 +84,16 @@ def parse_frontmatter(path):
                 key, value = line.split(':', 1)
                 # Try to cast to number if possible
                 val = value.strip()
+                # Strip surrounding quotes (common in YAML frontmatter)
+                if len(val) >= 2 and ((val[0] == '"' and val[-1] == '"') or (val[0] == "'" and val[-1] == "'")):
+                    val = val[1:-1]
                 try:
                     if '.' in val:
-                         val = float(val)
+                        val = float(val)
                     else:
-                         val = int(val)
+                        val = int(val)
                 except ValueError:
-                    pass # Keep as string
+                    pass  # Keep as string
                 
                 metadata[key.strip()] = val
     except Exception as e:
@@ -266,6 +269,11 @@ def sync():
         
         for filename in files:
             if is_markdown(filename):
+                # Skip repo-root markdown like README.md (not a vehicle story)
+                if rel_dir == '.':
+                    continue
+                if filename == 'README.md':
+                    continue
                 rel_path = os.path.join(rel_dir, filename)
                 
                 # Check if exists in new_assets (it shouldn't came from Drive loop)

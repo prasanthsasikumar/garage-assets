@@ -3491,6 +3491,102 @@
     }
   },
   {
+    "original_path": "Subaru_Legacy/story-06-family-trip.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 6,
+      "chapterTitle": "\"Trip with Parents\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-01-introduction.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 1,
+      "chapterTitle": "\"Introduction\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-08-auckland.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 8,
+      "chapterTitle": "\"Moving to Auckland\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-05-break-in.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 5,
+      "chapterTitle": "\"The Break-In\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-04-first-drive.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 4,
+      "chapterTitle": "\"First Drive & Adventures\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-09-breakdown.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 9,
+      "chapterTitle": "\"Epic Breakdown\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-02-the-search.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 2,
+      "chapterTitle": "\"The Search & Purchase\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-07-wellington.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 7,
+      "chapterTitle": "\"Life in Wellington\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
     "original_path": "Subaru_Legacy/story.md",
     "type": "markdown",
     "location": "local",
@@ -3498,6 +3594,30 @@
       "title": "Subaru Legacy (2001)",
       "type": "car",
       "weight": 100
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-10-storage.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 10,
+      "chapterTitle": "\"Storage & Future Dreams\"",
+      "series": "\"Subaru Legacy Story\""
+    }
+  },
+  {
+    "original_path": "Subaru_Legacy/story-03-restoration.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "car",
+      "weight": 100,
+      "chapter": 3,
+      "chapterTitle": "\"The Restoration\"",
+      "series": "\"Subaru Legacy Story\""
     }
   },
   {
@@ -3557,6 +3677,15 @@
     "metadata": {
       "title": "Hyosung GT250R",
       "type": "motorcycle",
+      "weight": 50
+    }
+  },
+  {
+    "original_path": "Swainston/story.md",
+    "type": "markdown",
+    "location": "local",
+    "metadata": {
+      "type": "garage",
       "weight": 50
     }
   },
