@@ -52,6 +52,12 @@
     "location": "remote"
   },
   {
+    "original_path": "Yamaha_R3/IMG_20220318_122638.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Yamaha_R3/IMG_20220318_122638.jpg"
+  },
+  {
     "original_path": "Yamaha_R3/472915213_621256240455379_4019341805366077567_n.jpg",
     "type": "image",
     "location": "hybrid",
@@ -156,6 +162,12 @@
     "location": "remote"
   },
   {
+    "original_path": "Yamaha_R3/IMG_20210616_153619.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Yamaha_R3/IMG_20210616_153619.jpg"
+  },
+  {
     "original_path": "Daihatsu_Mira/43388441_2110006582383582_6003928198893535232_n.jpg",
     "type": "image",
     "location": "hybrid",
@@ -232,6 +244,48 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Daihatsu_Mira/Daihatsu_Mira_PHOTO-2025-12-15-21-52-30 2.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200325_121752.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200325_121752.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200107_194417.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200107_194417.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200107_194214.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200107_194214.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200316_070717.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200316_070717.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200107_193850.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200107_193850.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200423_165951.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200423_165951.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Silver/IMG_20200322_123605.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Silver/IMG_20200322_123605.jpg"
   },
   {
     "original_path": "Subaru_Forester_Silver/Subaru_Forester_Silver_PHOTO-2025-12-15-21-53-28 2.jpg",
@@ -360,6 +414,12 @@
     "optimized_path": "Mazda_MX5/474694561_1875954493209878_605359239310976534_n.jpg"
   },
   {
+    "original_path": "Mazda_MX5/IMG_20210729_112150.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_MX5/IMG_20210729_112150.jpg"
+  },
+  {
     "original_path": "Mazda_MX5/281557907_7442648105776409_399048560628484607_n.jpg",
     "type": "image",
     "location": "hybrid",
@@ -402,10 +462,40 @@
     "optimized_path": "Mazda_MX5/280641918_5400598056620006_9135205030012041086_n.jpg"
   },
   {
+    "original_path": "Mazda_MX5/IMG_20210804_154739.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_MX5/IMG_20210804_154739.jpg"
+  },
+  {
     "original_path": "Mazda_MX5/473204449_1284858789457137_2593075002644551353_n.jpg",
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Mazda_MX5/473204449_1284858789457137_2593075002644551353_n.jpg"
+  },
+  {
+    "original_path": "Nissan_Wingroad/IMG_20200215_200235.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Wingroad/IMG_20200215_200235.jpg"
+  },
+  {
+    "original_path": "Nissan_Wingroad/IMG_20200215_200226.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Wingroad/IMG_20200215_200226.jpg"
+  },
+  {
+    "original_path": "Nissan_Wingroad/IMG_20200215_200255.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Wingroad/IMG_20200215_200255.jpg"
+  },
+  {
+    "original_path": "Nissan_Wingroad/IMG_20200322_120424.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Wingroad/IMG_20200322_120424.jpg"
   },
   {
     "original_path": "TGB_XRace/73118369_2751943994856501_7557910640044539904_n.jpg",
@@ -902,6 +992,12 @@
     "location": "remote"
   },
   {
+    "original_path": "Subaru_Legacy/IMG_20210220_124750.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy/IMG_20210220_124750.jpg"
+  },
+  {
     "original_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-53-28 3.jpg",
     "type": "image",
     "location": "hybrid",
@@ -926,6 +1022,12 @@
     "optimized_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-48.jpg"
   },
   {
+    "original_path": "Subaru_Legacy/IMG_20220305_011355.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy/IMG_20220305_011355.jpg"
+  },
+  {
     "original_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-54-01.jpg",
     "type": "image",
     "location": "hybrid",
@@ -942,6 +1044,30 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-49.jpg"
+  },
+  {
+    "original_path": "Honda_airwave/IMG_0630.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_airwave/IMG_0630.jpg"
+  },
+  {
+    "original_path": "Honda_airwave/IMG_0547.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_airwave/IMG_0547.jpg"
+  },
+  {
+    "original_path": "Honda_airwave/IMG_0543.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_airwave/IMG_0543.jpg"
+  },
+  {
+    "original_path": "Honda_airwave/IMG_0637.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_airwave/IMG_0637.jpg"
   },
   {
     "original_path": "Mitsubishi_L300/IMG_20180505_154812.jpg",
@@ -1058,6 +1184,12 @@
     "optimized_path": "Subaru_Impreza/IMG_20180407_114721.jpg"
   },
   {
+    "original_path": "Subaru_Forester_Ryo/IMG_0404.JPG",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_0404.jpg"
+  },
+  {
     "original_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_PHOTO-2025-12-15-21-53-50.jpg",
     "type": "image",
     "location": "hybrid",
@@ -1067,6 +1199,24 @@
     "original_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_GH020006-001.MP4",
     "type": "video",
     "location": "remote"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_0402.JPG",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_0402.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_20210321_111641.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_20210321_111641.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_20210321_100820.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_20210321_100820.jpg"
   },
   {
     "original_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_PHOTO-2025-12-15-21-53-50 2.jpg",
@@ -1079,6 +1229,24 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_PHOTO-2025-12-15-21-53-52 4.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_20210320_183802-01.jpeg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_20210320_183802-01.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_20210320_183449.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_20210320_183449.jpg"
+  },
+  {
+    "original_path": "Subaru_Forester_Ryo/IMG_0037.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Forester_Ryo/IMG_0037.jpg"
   },
   {
     "original_path": "Subaru_Legacy_Dogcar/IMG_20180327_161345.jpg",
@@ -1255,10 +1423,46 @@
     "optimized_path": "Yamaha_R15/IMG_20180530_145434.jpg"
   },
   {
+    "original_path": "Mitsubishi_Outlander_gen2/IMG_20200601_122636.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_gen2/IMG_20200601_122636.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_gen2/IMG_20200531_111034.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_gen2/IMG_20200531_111034.jpg"
+  },
+  {
     "original_path": "Mitsubishi_Outlander_gen2/Mitsubishi_outlander_gen2_PHOTO-2025-12-15-21-53-32.jpg",
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Mitsubishi_Outlander_gen2/Mitsubishi_outlander_gen2_PHOTO-2025-12-15-21-53-32.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_gen2/IMG_20200530_092515.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_gen2/IMG_20200530_092515.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_gen2/IMG_20200601_122414.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_gen2/IMG_20200601_122414.jpg"
+  },
+  {
+    "original_path": "Honda_Odyssey_Kunal/IMG_1096.JPG",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_Odyssey_Kunal/IMG_1096.jpg"
+  },
+  {
+    "original_path": "Honda_Odyssey_Kunal/IMG_1319.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_Odyssey_Kunal/IMG_1319.jpg"
   },
   {
     "original_path": "TVS_Apache_RTR/TVS_Apache_RTR_IMG_3294.JPG",
@@ -1271,6 +1475,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "TVS_Apache_RTR/TVS_Apache_RTR_IMG-20161007-WA0034.jpg"
+  },
+  {
+    "original_path": "TVS_Apache_RTR/IMG_0247.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "TVS_Apache_RTR/IMG_0247.jpg"
   },
   {
     "original_path": "TVS_Apache_RTR/TVS_Apache_RTR_IMG_3164.JPG",
@@ -1301,6 +1511,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Subaru_Legacy_Riti/281663818_7532763970131303_1140759871331311688_n.jpg"
+  },
+  {
+    "original_path": "Subaru_Legacy_Riti/IMG_0010.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Riti/IMG_0010.jpg"
   },
   {
     "original_path": "Subaru_Legacy_Riti/286406774_7871056146303025_2083651028819501479_n.jpg",
@@ -1348,6 +1564,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Subaru_Legacy_Riti/282246933_8176368415710157_3288961885624314656_n.jpg"
+  },
+  {
+    "original_path": "Subaru_Legacy_Riti/IMG_0194.JPG",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Riti/IMG_0194.jpg"
   },
   {
     "original_path": "Subaru_Legacy_Riti/282223566_4999288256864757_7876921100050781071_n.jpg",
@@ -1612,6 +1834,24 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Nissan_Bluebird_U14/Nissan_Bluebird_U14_PHOTO-2025-12-15-21-52-32 3.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Pajero/Pajero1.png",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Pajero/Pajero1.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Pajero/Pajero2.png",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Pajero/Pajero2.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Pajero/Pajero3.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Pajero/Pajero3.jpg"
   },
   {
     "original_path": "Mazda_RX8_White/Mazda_RX8_White_VIDEO-2025-12-15-21-53-39 3.mp4",
@@ -2425,6 +2665,12 @@
     "optimized_path": "BMW_320/50220984_2258398327544406_2295961152754024448_n.jpg"
   },
   {
+    "original_path": "Ford_Econovan_Ryo/IMG_0627.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Ford_Econovan_Ryo/IMG_0627.jpg"
+  },
+  {
     "original_path": "Daihatsu_Sirion/Daihatsu_Sirion_IMG_4314.JPG",
     "type": "image",
     "location": "hybrid",
@@ -2574,10 +2820,28 @@
     "optimized_path": "Daihatsu_Sirion/Daihatsu_Sirion_IMG_4319.jpg"
   },
   {
+    "original_path": "Mitsubishi_Airtrek/IMG_20210117_203446.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Airtrek/IMG_20210117_203446.jpg"
+  },
+  {
     "original_path": "Mitsubishi_Airtrek/Mitsubishi_Airtrek_PHOTO-2025-12-15-21-54-00 2.jpg",
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Mitsubishi_Airtrek/Mitsubishi_Airtrek_PHOTO-2025-12-15-21-54-00 2.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Airtrek/IMG_20210123_205723.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Airtrek/IMG_20210123_205723.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Airtrek/IMG_20210123_135500.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Airtrek/IMG_20210123_135500.jpg"
   },
   {
     "original_path": "Ford_Econovan_camper/282519577_5314520781927450_772309398452239702_n.jpg",
@@ -2596,6 +2860,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Ford_Econovan_camper/473213481_954262656259258_8475452482709913260_n.jpg"
+  },
+  {
+    "original_path": "Ford_Econovan_camper/IMG_20211226_111418.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Ford_Econovan_camper/IMG_20211226_111418.jpg"
   },
   {
     "original_path": "Ford_Econovan_camper/Ford_Econovan_camper_IMG_5382.MOV",
@@ -2901,6 +3171,12 @@
     "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4629.jpg"
   },
   {
+    "original_path": "Mazda_RX8_Purple/IMG_20200711_144746.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_RX8_Purple/IMG_20200711_144746.jpg"
+  },
+  {
     "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4827.JPG",
     "type": "image",
     "location": "hybrid",
@@ -2965,6 +3241,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4817.jpg"
+  },
+  {
+    "original_path": "Mazda_RX8_Purple/IMG_4635.JPG",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_RX8_Purple/IMG_4635.jpg"
   },
   {
     "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4778.JPG",
@@ -3483,6 +3765,12 @@
     "optimized_path": "Hyosung_GT250R/Hyosung_GT250R_IMG_20200317_093936.jpg"
   },
   {
+    "original_path": "Hyosung_GT250R/IMG_20200125_185416.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Hyosung_GT250R/IMG_20200125_185416.jpg"
+  },
+  {
     "original_path": "Hyosung_GT250R/Hyosung_GT250R_IMG_20200317_093927.jpg",
     "type": "image",
     "location": "hybrid",
@@ -3499,6 +3787,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Hyosung_GT250R/Hyosung_GT250R_IMG_20200317_093945.jpg"
+  },
+  {
+    "original_path": "Hyosung_GT250R/IMG_20200607_124006.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Hyosung_GT250R/IMG_20200607_124006.jpg"
   },
   {
     "original_path": "Hyosung_GT250R/Hyosung_GT250R_PHOTO-2025-12-15-21-53-03 2.jpg",
@@ -3536,6 +3830,12 @@
     "optimized_path": "Hyosung_GT250R/Hyosung_GT250R_IMG_20200317_094007.jpg"
   },
   {
+    "original_path": "Hyosung_GT250R/IMG_20200125_185357.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Hyosung_GT250R/IMG_20200125_185357.jpg"
+  },
+  {
     "original_path": "Hyosung_GT250R/Hyosung_GT250R_IMG_20200322_120411.jpg",
     "type": "image",
     "location": "hybrid",
@@ -3546,6 +3846,72 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Hyosung_GT250R/Hyosung_GT250R_PHOTO-2025-12-15-21-53-03.jpg"
+  },
+  {
+    "original_path": "Mazda_Axela/IMG_20200729_231313.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_Axela/IMG_20200729_231313.jpg"
+  },
+  {
+    "original_path": "Mazda_Axela/IMG_20200729_231318.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_Axela/IMG_20200729_231318.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200718_141035.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200718_141035.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200916_173810.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200916_173810.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20201220_170614.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20201220_170614.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200717_114807.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200717_114807.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200717_114830.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200717_114830.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20201220_170623.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20201220_170623.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200718_080932.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200718_080932.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200721_133503.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200721_133503.jpg"
+  },
+  {
+    "original_path": "Nissan_Bluebird/IMG_20200721_120231.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Nissan_Bluebird/IMG_20200721_120231.jpg"
   },
   {
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8421.HEIC",
@@ -3593,6 +3959,12 @@
     "location": "remote"
   },
   {
+    "original_path": "Mitsubishi_Outlander/IMG_0788.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander/IMG_0788.jpg"
+  },
+  {
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1142.HEIC",
     "type": "unknown",
     "location": "remote"
@@ -3626,6 +3998,18 @@
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0406.HEIC",
     "type": "unknown",
     "location": "remote"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander/IMG_0887.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander/IMG_0887.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander/IMG_0886.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander/IMG_0886.jpg"
   },
   {
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0407.HEIC",
@@ -3666,6 +4050,12 @@
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8405.HEIC",
     "type": "unknown",
     "location": "remote"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander/IMG_1016.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander/IMG_1016.jpg"
   },
   {
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8413.HEIC",
@@ -3731,6 +4121,12 @@
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8399.HEIC",
     "type": "unknown",
     "location": "remote"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander/IMG_0800.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander/IMG_0800.jpg"
   },
   {
     "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8419.HEIC",
@@ -4259,6 +4655,12 @@
     "optimized_path": "TGB_Tapo/77240223_2765696700147897_5742066439448166400_n.jpg"
   },
   {
+    "original_path": "Toyota_Echo/IMG_20220210_233717.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Toyota_Echo/IMG_20220210_233717.jpg"
+  },
+  {
     "original_path": "Toyota_Echo/WhatsApp Image 2025-12-17 at 22.38.48.jpeg",
     "type": "image",
     "location": "hybrid",
@@ -4409,14 +4811,32 @@
     "optimized_path": "Mitsubhishi_Outlander/336173906_6046085832153002_2264993959466883196_n.jpg"
   },
   {
+    "original_path": "Mazda_RX8_Parts/IMG_20200815_171942.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_RX8_Parts/IMG_20200815_171942.jpg"
+  },
+  {
     "original_path": "Mazda_RX8_Parts/Mazda_RX8_Parts_VID_20200229_113521-004.mp4",
     "type": "video",
     "location": "remote"
   },
   {
+    "original_path": "Mazda_RX8_Parts/IMG_20200815_131913.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_RX8_Parts/IMG_20200815_131913.jpg"
+  },
+  {
     "original_path": "Mazda_RX8_Parts/Mazda_RX8_Parts_VIDEO-2025-12-15-21-53-27 2.mp4",
     "type": "video",
     "location": "remote"
+  },
+  {
+    "original_path": "Mazda_RX8_Parts/IMG_20200906_121128.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mazda_RX8_Parts/IMG_20200906_121128.jpg"
   },
   {
     "original_path": "Subaru_legacy_silver/83722524_2961292067255025_8565079448754323456_n.jpg",
@@ -4479,6 +4899,12 @@
     "optimized_path": "Subaru_legacy_silver/IMG_20180522_072905.jpg"
   },
   {
+    "original_path": "Subaru_legacy_silver/IMG_20200117_185803.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_legacy_silver/IMG_20200117_185803.jpg"
+  },
+  {
     "original_path": "Subaru_legacy_silver/82508416_2961292710588294_6786141854887837696_n.jpg",
     "type": "image",
     "location": "hybrid",
@@ -4491,10 +4917,22 @@
     "optimized_path": "Subaru_Legacy_Ali/Subaru_Legacy_Ali_PHOTO-2025-12-15-21-53-46 3.jpg"
   },
   {
+    "original_path": "Subaru_Legacy_Ali/IMG_20210124_153526.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Ali/IMG_20210124_153526.jpg"
+  },
+  {
     "original_path": "Subaru_Legacy_Ali/Subaru_Legacy_Ali_PHOTO-2025-12-15-21-53-45 3.jpg",
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Subaru_Legacy_Ali/Subaru_Legacy_Ali_PHOTO-2025-12-15-21-53-45 3.jpg"
+  },
+  {
+    "original_path": "Subaru_Legacy_Ali/IMG_20210124_165147.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Ali/IMG_20210124_165147.jpg"
   },
   {
     "original_path": "CFMOTO_MT650/491738473_1462692964712662_7874082699533902359_n.jpg",
@@ -4555,6 +4993,102 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "CFMOTO_MT650/491741007_1344530690147254_8473893821061210536_n.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_1040.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_1040.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_1055.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_1055.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_7998.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_7998.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0950.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0950.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0944.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0944.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0560.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0560.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0895.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0895.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_1020.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_1020.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0896.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0896.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_8005.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_8005.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0893.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0893.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0891.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0891.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0901.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0901.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_1049.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_1049.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_1075.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_1075.jpg"
+  },
+  {
+    "original_path": "Mitsubishi_Outlander_Gen1/IMG_0972.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Mitsubishi_Outlander_Gen1/IMG_0972.jpg"
   },
   {
     "original_path": "Subaru_Legacy_Humayun/story.md",
