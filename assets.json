@@ -250,12 +250,6 @@
     "optimized_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-43.jpg"
   },
   {
-    "original_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-53-47 3.jpg",
-    "type": "image",
-    "location": "hybrid",
-    "optimized_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-53-47 3.jpg"
-  },
-  {
     "original_path": "Subaru_Legacy/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-41.jpg",
     "type": "image",
     "location": "hybrid",
@@ -3329,6 +3323,12 @@
     "optimized_path": "Honda_Integra/IMG-20170427-WA0010.jpg"
   },
   {
+    "original_path": "Honda_Integra/IMG-20170415-WA0015.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_Integra/IMG-20170415-WA0015.jpg"
+  },
+  {
     "original_path": "Honda_Integra/IMG_20170805_122832.jpg",
     "type": "image",
     "location": "hybrid",
@@ -3351,6 +3351,12 @@
     "type": "image",
     "location": "hybrid",
     "optimized_path": "Honda_Integra/IMG-20170427-WA0014.jpg"
+  },
+  {
+    "original_path": "Honda_Integra/IMG-20170415-WA0008.jpg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Honda_Integra/IMG-20170415-WA0008.jpg"
   },
   {
     "original_path": "Honda_Integra/IMG_20170710_161332.jpg",
