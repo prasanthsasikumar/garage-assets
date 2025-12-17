@@ -924,6 +924,18 @@
     "location": "remote"
   },
   {
+    "original_path": "Subaru_Legacy_Riti/WhatsApp Image 2025-12-17 at 17.19.03 (1).jpeg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Riti/WhatsApp Image 2025-12-17 at 17.19.03 (1).jpg"
+  },
+  {
+    "original_path": "Subaru_Legacy_Riti/WhatsApp Image 2025-12-17 at 17.19.03.jpeg",
+    "type": "image",
+    "location": "hybrid",
+    "optimized_path": "Subaru_Legacy_Riti/WhatsApp Image 2025-12-17 at 17.19.03.jpg"
+  },
+  {
     "original_path": "Nissan_Primera/IMG_20171214_175755.jpg",
     "type": "image",
     "location": "hybrid",
@@ -3465,12 +3477,6 @@
     "optimized_path": "Subaru_Legacy_Ali/Subaru_Legacy_Ali_PHOTO-2025-12-15-21-53-45 3.jpg"
   },
   {
-    "original_path": "./README.md",
-    "type": "markdown",
-    "location": "local",
-    "metadata": {}
-  },
-  {
     "original_path": "Subaru_Legacy_Humayun/story.md",
     "type": "markdown",
     "location": "local",
@@ -3498,8 +3504,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 6,
-      "chapterTitle": "\"Trip with Parents\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Trip with Parents",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3510,8 +3516,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 1,
-      "chapterTitle": "\"Introduction\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Introduction",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3522,8 +3528,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 8,
-      "chapterTitle": "\"Moving to Auckland\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Moving to Auckland",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3534,8 +3540,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 5,
-      "chapterTitle": "\"The Break-In\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "The Break-In",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3546,8 +3552,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 4,
-      "chapterTitle": "\"First Drive & Adventures\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "First Drive & Adventures",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3558,8 +3564,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 9,
-      "chapterTitle": "\"Epic Breakdown\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Epic Breakdown",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3570,8 +3576,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 2,
-      "chapterTitle": "\"The Search & Purchase\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "The Search & Purchase",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3582,8 +3588,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 7,
-      "chapterTitle": "\"Life in Wellington\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Life in Wellington",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3604,8 +3610,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 10,
-      "chapterTitle": "\"Storage & Future Dreams\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "Storage & Future Dreams",
+      "series": "Subaru Legacy Story"
     }
   },
   {
@@ -3616,8 +3622,8 @@
       "type": "car",
       "weight": 100,
       "chapter": 3,
-      "chapterTitle": "\"The Restoration\"",
-      "series": "\"Subaru Legacy Story\""
+      "chapterTitle": "The Restoration",
+      "series": "Subaru Legacy Story"
     }
   },
   {
