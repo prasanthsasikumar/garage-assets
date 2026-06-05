@@ -17,6 +17,7 @@
         "display_name": "Honda Integra 1997",
         "type": "car",
         "weight": 100,
+        "thumbnail_image": "Honda_Integra_1997/Honda_Integra_PHOTO-2025-12-15-21-53-53.jpg",
         "summary": {
           "images": 25,
           "videos": 0,
@@ -191,13 +192,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 1997
       },
       {
         "slug": "Subaru_Legacy_2001",
         "display_name": "Subaru Legacy 2001",
         "type": "car",
         "weight": 100,
+        "thumbnail_image": "Subaru_Legacy_2001/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-28.jpg",
         "summary": {
           "images": 62,
           "videos": 10,
@@ -765,13 +768,16 @@
             }
           ],
           "other": []
-        }
+        },
+        "sort_order": 1,
+        "acquired_year": 2001
       },
       {
         "slug": "Honda_CRV_1995",
         "display_name": "Honda CRV 1995",
         "type": "car",
         "weight": 10,
+        "thumbnail_image": "Honda_CRV_1995/Honda_CRV_PHOTO-2025-12-15-21-53-56 2.jpg",
         "summary": {
           "images": 11,
           "videos": 0,
@@ -862,13 +868,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 1995
       },
       {
         "slug": "Nissan_Primera_2000_Wagon",
         "display_name": "Nissan Primera 2000 Wagon",
         "type": "car",
         "weight": 10,
+        "thumbnail_image": "Nissan_Primera_2000_Wagon/1cover.jpg",
         "summary": {
           "images": 23,
           "videos": 0,
@@ -1031,13 +1039,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 2000
       },
       {
         "slug": "Subaru_Legacy_2000_Dogcar",
         "display_name": "Subaru Legacy 2000 Dog Car",
         "type": "car",
         "weight": 10,
+        "thumbnail_image": "Subaru_Legacy_2000_Dogcar/IMG_20180327_161330.jpg",
         "summary": {
           "images": 7,
           "videos": 0,
@@ -1104,13 +1114,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 2000
       },
       {
         "slug": "Subaru_Legacy_2001_Clean",
         "display_name": "Subaru Legacy 2001 Clean",
         "type": "car",
         "weight": 10,
+        "thumbnail_image": "Subaru_Legacy_2001_Clean/IMG_20180409_165908.jpg",
         "summary": {
           "images": 6,
           "videos": 0,
@@ -1171,13 +1183,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 2001
       },
       {
         "slug": "Subaru_Legacy_1999_Humayoon",
         "display_name": "Subaru Legacy 1999 Humayoon",
         "type": "car",
         "weight": 1,
+        "thumbnail_image": "Subaru_Legacy_1999_Humayoon/Subaru_Legacy_Humayun_PHOTO-2025-12-15-21-53-58.jpg",
         "summary": {
           "images": 1,
           "videos": 0,
@@ -1208,13 +1222,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 1999
       },
       {
         "slug": "Benz_Sprinter_2017",
         "display_name": "Benz Sprinter 2017",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Benz_Sprinter_2017/Campervan_PHOTO-2025-12-15-21-53-33 2.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -1252,13 +1268,15 @@
           "videos": [],
           "markdown": [],
           "other": []
-        }
+        },
+        "acquired_year": 2017
       },
       {
         "slug": "BMW_320",
         "display_name": "BMW 320",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "BMW_320/49346084_2258398157544423_5655872849613684736_n.jpg",
         "summary": {
           "images": 9,
           "videos": 0,
@@ -1333,6 +1351,7 @@
         "display_name": "Daihatsu Mira",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Daihatsu_Mira/43245675_2110006525716921_1922909854020665344_n.jpg",
         "summary": {
           "images": 13,
           "videos": 0,
@@ -1431,6 +1450,7 @@
         "display_name": "Daihatsu Sirion",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Daihatsu_Sirion/Daihatsu_Sirion_IMG_4314.jpg",
         "summary": {
           "images": 24,
           "videos": 0,
@@ -1601,6 +1621,7 @@
         "display_name": "Ford Econovan camper",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Ford_Econovan_camper/280731900_5196084897119155_7929906735985636085_n.jpg",
         "summary": {
           "images": 14,
           "videos": 2,
@@ -1716,6 +1737,7 @@
         "display_name": "Ford Econovan Ryo",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Ford_Econovan_Ryo/IMG_0627.jpg",
         "summary": {
           "images": 1,
           "videos": 0,
@@ -1742,6 +1764,7 @@
         "display_name": "Honda Accord",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Honda_Accord/Honda_Accord_PHOTO-2025-12-15-21-52-55.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -1780,6 +1803,7 @@
         "display_name": "Honda airwave",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Honda_airwave/IMG_0543.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -1824,6 +1848,7 @@
         "display_name": "Honda Fit Han",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Honda_Fit_Han/IMG_20170712_043345.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -1862,6 +1887,7 @@
         "display_name": "Honda Odyssey Kunal",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Honda_Odyssey_Kunal/IMG_1096.jpg",
         "summary": {
           "images": 2,
           "videos": 0,
@@ -1894,6 +1920,7 @@
         "display_name": "Honda Stream",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Honda_Stream/Honda_Stream_616615110O.jpg",
         "summary": {
           "images": 11,
           "videos": 0,
@@ -1986,6 +2013,7 @@
         "display_name": "Mazda Axela",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_Axela/IMG_20200729_231313.jpg",
         "summary": {
           "images": 2,
           "videos": 0,
@@ -2018,6 +2046,7 @@
         "display_name": "Mazda MX5",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_MX5/280641918_5400598056620006_9135205030012041086_n.jpg",
         "summary": {
           "images": 20,
           "videos": 0,
@@ -2158,6 +2187,7 @@
         "display_name": "Mazda MX5 Parts",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_MX5_Parts/277406008_7838184749539934_4695650659899556834_n.jpg",
         "summary": {
           "images": 10,
           "videos": 0,
@@ -2238,6 +2268,7 @@
         "display_name": "Mazda RX8 Parts",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_RX8_Parts/IMG_20200815_131913.jpg",
         "summary": {
           "images": 3,
           "videos": 2,
@@ -2280,13 +2311,15 @@
           ],
           "markdown": [],
           "other": []
-        }
+        },
+        "sort_order": 4
       },
       {
         "slug": "Mazda_RX8_Purple",
         "display_name": "Mazda RX8 Purple",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_RX8_Purple/IMG_20200711_144746.jpg",
         "summary": {
           "images": 93,
           "videos": 6,
@@ -2889,13 +2922,15 @@
           ],
           "markdown": [],
           "other": []
-        }
+        },
+        "sort_order": 3
       },
       {
         "slug": "Mazda_RX8_White",
         "display_name": "Mazda RX8 White",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200229_110126_BURST001_COVER.jpg",
         "summary": {
           "images": 87,
           "videos": 47,
@@ -3667,13 +3702,15 @@
           ],
           "markdown": [],
           "other": []
-        }
+        },
+        "sort_order": 2
       },
       {
         "slug": "Mitsubhishi_Outlander",
         "display_name": "Mitsubhishi Outlander",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubhishi_Outlander/331240733_9335080936509679_4026033642561027940_n.jpg",
         "summary": {
           "images": 20,
           "videos": 0,
@@ -3814,6 +3851,7 @@
         "display_name": "Mitsubishi Airtrek",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Airtrek/IMG_20210117_203446.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -3858,6 +3896,7 @@
         "display_name": "Mitsubishi Colt",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Colt/Mitsubishi_Colt_PHOTO-2025-12-15-21-53-43 2.jpg",
         "summary": {
           "images": 7,
           "videos": 0,
@@ -3920,6 +3959,7 @@
         "display_name": "Mitsubishi L200",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_L200/169150817_4174418582609028_7293443251836011544_n.jpg",
         "summary": {
           "images": 11,
           "videos": 0,
@@ -4006,6 +4046,7 @@
         "display_name": "Mitsubishi L300",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_L300/IMG_20180505_154215.jpg",
         "summary": {
           "images": 5,
           "videos": 0,
@@ -4056,6 +4097,7 @@
         "display_name": "Mitsubishi L300 Camper",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_L300_Camper/49831893_2261758390541733_7349945093756813312_n.jpg",
         "summary": {
           "images": 6,
           "videos": 0,
@@ -4112,6 +4154,7 @@
         "display_name": "Mitsubishi Outlander",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Outlander/IMG_0788.jpg",
         "summary": {
           "images": 30,
           "videos": 3,
@@ -4569,6 +4612,7 @@
         "display_name": "Mitsubishi Outlander Gen1",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Outlander_Gen1/IMG_0560.jpg",
         "summary": {
           "images": 16,
           "videos": 0,
@@ -4685,6 +4729,7 @@
         "display_name": "Mitsubishi Outlander gen2",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Outlander_gen2/IMG_20200530_092515.jpg",
         "summary": {
           "images": 5,
           "videos": 0,
@@ -4735,6 +4780,7 @@
         "display_name": "Mitsubishi Pajero",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Mitsubishi_Pajero/Pajero1.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -4773,6 +4819,7 @@
         "display_name": "Nissan Bluebird",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Nissan_Bluebird/IMG_20200717_114807.jpg",
         "summary": {
           "images": 9,
           "videos": 0,
@@ -4847,6 +4894,7 @@
         "display_name": "Nissan Bluebird U14",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Nissan_Bluebird_U14/Nissan_Bluebird_U14_PHOTO-2025-12-15-21-52-32 2.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -4885,6 +4933,7 @@
         "display_name": "Nissan Elgrand",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Nissan_Elgrand/33532993_1911301922254050_6020973197514506240_n.jpg",
         "summary": {
           "images": 17,
           "videos": 0,
@@ -5007,6 +5056,7 @@
         "display_name": "Nissan Wingroad",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Nissan_Wingroad/IMG_20200215_200226.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -5051,6 +5101,7 @@
         "display_name": "Subaru Forester Ryo",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Forester_Ryo/IMG_0037.jpg",
         "summary": {
           "images": 10,
           "videos": 1,
@@ -5137,6 +5188,7 @@
         "display_name": "Subaru Forester Silver",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Forester_Silver/IMG_20200107_193850.jpg",
         "summary": {
           "images": 8,
           "videos": 0,
@@ -5205,6 +5257,7 @@
         "display_name": "Subaru Impreza 1999 Wagon",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Impreza_1999_Wagon/IMG_20180407_114721.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -5236,13 +5289,15 @@
           "videos": [],
           "markdown": [],
           "other": []
-        }
+        },
+        "acquired_year": 1999
       },
       {
         "slug": "Subaru_Legacy_2001_Stolen",
         "display_name": "Subaru Legacy 2001 Stolen",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Legacy_2001_Stolen/82339724_2961291783921720_8837689630145904640_n.jpg",
         "summary": {
           "images": 12,
           "videos": 0,
@@ -5335,13 +5390,15 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 2001
       },
       {
         "slug": "Subaru_Legacy_Ali",
         "display_name": "Subaru Legacy Ali",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Legacy_Ali/IMG_20210124_153526.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -5386,6 +5443,7 @@
         "display_name": "Subaru Legacy Riti",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Subaru_Legacy_Riti/279214138_4989401044511089_8887083092007130173_n.jpg",
         "summary": {
           "images": 14,
           "videos": 1,
@@ -5496,6 +5554,7 @@
         "display_name": "Toyota Echo",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Toyota_Echo/IMG_20220210_233717.jpg",
         "summary": {
           "images": 2,
           "videos": 0,
@@ -5528,6 +5587,7 @@
         "display_name": "Volkswagen Polo",
         "type": "car",
         "weight": 0,
+        "thumbnail_image": "Volkswagen_Polo/Volkswagen_Polo_PHOTO-2025-12-15-21-53-28.jpg",
         "summary": {
           "images": 13,
           "videos": 0,
@@ -5628,6 +5688,7 @@
         "display_name": "CFMOTO MT650 IN",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "CFMOTO_MT650_IN/491738473_1462692964712662_7874082699533902359_n.jpg",
         "summary": {
           "images": 10,
           "videos": 0,
@@ -5719,6 +5780,7 @@
         "display_name": "Hyosung GT250R",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "Hyosung_GT250R/90161177_3089927191058178_4739370439745208320_n.jpg",
         "summary": {
           "images": 14,
           "videos": 1,
@@ -5840,6 +5902,7 @@
         "display_name": "KTM RC 200",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "KTM_RC_200/49DEF13B-018E-41F8-8D96-244EB15E7C9F.jpg",
         "summary": {
           "images": 5,
           "videos": 0,
@@ -5901,6 +5964,7 @@
         "display_name": "TGB Tapo",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "TGB_Tapo/73243265_2765696556814578_7372430368537837568_n.jpg",
         "summary": {
           "images": 12,
           "videos": 0,
@@ -6004,6 +6068,7 @@
         "display_name": "TGB XRace",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "TGB_XRace/72850361_2751944038189830_2398396174303232000_n.jpg",
         "summary": {
           "images": 8,
           "videos": 0,
@@ -6083,6 +6148,7 @@
         "display_name": "TVS Apache RTR",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "TVS_Apache_RTR/IMG_0247.jpg",
         "summary": {
           "images": 4,
           "videos": 0,
@@ -6138,6 +6204,7 @@
         "display_name": "Yamaha R15",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "Yamaha_R15/IMG_20170629_202848.jpg",
         "summary": {
           "images": 22,
           "videos": 0,
@@ -6301,6 +6368,7 @@
         "display_name": "Yamaha R3",
         "type": "motorcycle",
         "weight": 50,
+        "thumbnail_image": "Yamaha_R3/279746398_4984583401619194_9134337743355743059_n.jpg",
         "summary": {
           "images": 22,
           "videos": 6,
@@ -6497,6 +6565,7 @@
         "display_name": "Swainston",
         "type": "garage",
         "weight": 50,
+        "thumbnail_image": "Swainston/Swainston_PHOTO-2025-12-15-21-53-45.jpg",
         "summary": {
           "images": 3,
           "videos": 0,
@@ -6545,6 +6614,7 @@
         "display_name": "Subaru Legacy 1999 Parts",
         "type": "garage",
         "weight": 10,
+        "thumbnail_image": "Subaru_Legacy_1999_Parts/IMG_20180322_153635.jpg",
         "summary": {
           "images": 2,
           "videos": 0,
@@ -6581,7 +6651,8 @@
             }
           ],
           "other": []
-        }
+        },
+        "acquired_year": 1999
       }
     ]
   }
