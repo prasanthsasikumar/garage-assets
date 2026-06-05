@@ -5,8 +5,8 @@ weight: 10
 ---
 # Subaru Legacy (Clean)
 
-Very rare Legacy with low kms which was recently imported from Japan. It was great interior, pristine paint and very healthy engine.
+A rare find: a Legacy recently imported directly from Japan with genuinely low kilometres. The interior was excellent, the paint pristine, and the engine in exactly the kind of condition that JDM cars so often arrive in — well maintained and barely used by local standards.
 
-The only drawback was that the car was deregistered. I learned the process of re-registering a car with this and sold this car.
+The only complication was that the car had been deregistered. Bringing it back into legal use meant working through the re-registration process from scratch, which added some time but ultimately made the car straightforward to sell and easy to price well.
 
-**Result**: Made a huge profit on this one.
+**Result**: One of the better profits on a single car.

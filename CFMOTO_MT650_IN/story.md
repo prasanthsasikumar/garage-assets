@@ -5,4 +5,4 @@ type: motorcycle
 ---
 # CFMOTO MT650 INDIA
 
-A versatile mid-displacement adventure motorcycle offering great value and capability.
+The MT650 was a surprise. CFMOTO had been building a reputation for delivering serious performance at prices that made the established brands look embarrassed, and this bike lived up to it — mid-displacement, capable on any road, and genuinely well put together. The kind of machine that makes you question why anyone pays more for a badge.

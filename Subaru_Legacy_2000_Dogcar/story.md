@@ -5,10 +5,10 @@ weight: 10
 ---
 # Subaru Legacy (Blue - "Dog Car")
 
-This came up in TradeMe for $1000 and the guy was happy to give it for $550.
+This one appeared on TradeMe for $1,000 and the seller was happy enough to take $550.
 
-Got the car, it was full of dog fur. The issue with the car is that it was overheating and on the inspection I could not see much trouble. So stress stressed the car by going on hill climbs and sure enough it overheated. But I had water to be used for coolant with me.
+The car arrived full of dog fur — every surface, every crevice. The listed issue was overheating, and I could not immediately identify the source on inspection. So I stress-tested it: loaded the car up and took it on a series of hill climbs. Sure enough, the temperature climbed. I had water on hand to top up the coolant and eventually traced the problem to a leak at the top of the radiator.
 
-Identified the coolant leak to the top of the radiator. Replaced the radiator with a good used one and everything was great.
+A good used replacement radiator sorted it completely.
 
-**Result**: Sold the car - easy bucks.
+**Result**: Sold the car without any further hassle. Easy money.

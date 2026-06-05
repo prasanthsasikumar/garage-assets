@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-05T19:09:11+00:00",
+  "generated_at": "2026-06-05T21:13:48+00:00",
   "summary": {
     "total_vehicles": 56,
     "total_assets": 903,
@@ -18,6 +18,7 @@
         "type": "car",
         "weight": 100,
         "thumbnail_image": "Honda_Integra_1997/IMG_20170627_135502.jpg",
+        "acquired_year": 1997,
         "summary": {
           "images": 25,
           "videos": 0,
@@ -192,8 +193,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 1997
+        }
       },
       {
         "slug": "Subaru_Legacy_2001",
@@ -201,6 +201,8 @@
         "type": "car",
         "weight": 100,
         "thumbnail_image": "Subaru_Legacy_2001/Subaru_Legacy_Main_PHOTO-2025-12-15-21-52-44.jpg",
+        "sort_order": 1,
+        "acquired_year": 2001,
         "summary": {
           "images": 62,
           "videos": 10,
@@ -637,16 +639,6 @@
           ],
           "markdown": [
             {
-              "original_path": "Subaru_Legacy_2001/story.md",
-              "type": "markdown",
-              "location": "local",
-              "metadata": {
-                "title": "Subaru Legacy (2001)",
-                "type": "car",
-                "weight": 100
-              }
-            },
-            {
               "original_path": "Subaru_Legacy_2001/story-01-introduction.md",
               "type": "markdown",
               "location": "local",
@@ -765,12 +757,20 @@
                 "chapterTitle": "Storage & Future Dreams",
                 "series": "Subaru Legacy Story"
               }
+            },
+            {
+              "original_path": "Subaru_Legacy_2001/story.md",
+              "type": "markdown",
+              "location": "local",
+              "metadata": {
+                "title": "Subaru Legacy (2001)",
+                "type": "car",
+                "weight": 100
+              }
             }
           ],
           "other": []
-        },
-        "sort_order": 1,
-        "acquired_year": 2001
+        }
       },
       {
         "slug": "Honda_CRV_1995",
@@ -778,6 +778,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Honda_CRV_1995/IMG_20171125_203942.jpg",
+        "acquired_year": 1995,
         "summary": {
           "images": 11,
           "videos": 0,
@@ -868,8 +869,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 1995
+        }
       },
       {
         "slug": "Nissan_Primera_2000_Wagon",
@@ -877,6 +877,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Nissan_Primera_2000_Wagon/1cover.jpg",
+        "acquired_year": 2000,
         "summary": {
           "images": 23,
           "videos": 0,
@@ -1039,8 +1040,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2000
+        }
       },
       {
         "slug": "Subaru_Legacy_2000_Dogcar",
@@ -1048,6 +1048,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Subaru_Legacy_2000_Dogcar/IMG_20180327_161330.jpg",
+        "acquired_year": 2000,
         "summary": {
           "images": 7,
           "videos": 0,
@@ -1114,8 +1115,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2000
+        }
       },
       {
         "slug": "Subaru_Legacy_2001_Clean",
@@ -1123,6 +1123,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Subaru_Legacy_2001_Clean/IMG_20180409_165923.jpg",
+        "acquired_year": 2001,
         "summary": {
           "images": 6,
           "videos": 0,
@@ -1183,8 +1184,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2001
+        }
       },
       {
         "slug": "Subaru_Legacy_1999_Humayoon",
@@ -1192,6 +1192,7 @@
         "type": "car",
         "weight": 1,
         "thumbnail_image": "Subaru_Legacy_1999_Humayoon/Subaru_Legacy_Humayun_PHOTO-2025-12-15-21-53-58.jpg",
+        "acquired_year": 1999,
         "summary": {
           "images": 1,
           "videos": 0,
@@ -1222,8 +1223,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 1999
+        }
       },
       {
         "slug": "Benz_Sprinter_2017",
@@ -1231,6 +1231,7 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Benz_Sprinter_2017/Campervan_PHOTO-2025-12-15-21-53-33 2.jpg",
+        "acquired_year": 2017,
         "summary": {
           "images": 4,
           "videos": 0,
@@ -1268,8 +1269,7 @@
           "videos": [],
           "markdown": [],
           "other": []
-        },
-        "acquired_year": 2017
+        }
       },
       {
         "slug": "BMW_320",
@@ -1352,6 +1352,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Daihatsu_Mira/43582698_2110006305716943_7710942987680743424_n.jpg",
+        "acquired_year": 1999,
         "summary": {
           "images": 13,
           "videos": 0,
@@ -1454,8 +1455,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 1999
+        }
       },
       {
         "slug": "Daihatsu_Sirion",
@@ -2059,6 +2059,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Mazda_MX5/281557907_7442648105776409_399048560628484607_n.jpg",
+        "acquired_year": 2000,
         "summary": {
           "images": 20,
           "videos": 0,
@@ -2203,8 +2204,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2000
+        }
       },
       {
         "slug": "Mazda_MX5_Parts",
@@ -2212,6 +2212,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Mazda_MX5_Parts/277906768_4788491687940956_1986087653003616159_n.jpg",
+        "acquired_year": 1999,
         "summary": {
           "images": 10,
           "videos": 0,
@@ -2290,14 +2291,13 @@
               "location": "local",
               "metadata": {
                 "title": "Mazda MX-5 Parts Car (1999)",
-                "type": "car",
+                "type": "garage",
                 "weight": 10
               }
             }
           ],
           "other": []
-        },
-        "acquired_year": 1999
+        }
       },
       {
         "slug": "Mazda_RX8_Parts",
@@ -2305,6 +2305,7 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Mazda_RX8_Parts/IMG_20200815_131913.jpg",
+        "sort_order": 4,
         "summary": {
           "images": 3,
           "videos": 2,
@@ -2347,8 +2348,7 @@
           ],
           "markdown": [],
           "other": []
-        },
-        "sort_order": 4
+        }
       },
       {
         "slug": "Mazda_RX8_Purple",
@@ -2356,12 +2356,13 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Mazda_RX8_Purple/Mazda_RX8_Purple_2_RightSide.jpg",
+        "sort_order": 3,
         "summary": {
-          "images": 93,
+          "images": 105,
           "videos": 6,
           "markdown": 0,
           "other": 0,
-          "total_assets": 99
+          "total_assets": 111
         },
         "assets": {
           "images": [
@@ -2430,6 +2431,78 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_dqs 2021-01-18 233746.399.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200907_171543.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200907_171543.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_172955.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_172955.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_172959.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_172959.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_173004.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_173004.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200259.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200259.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200755.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200755.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200807.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_200807.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_202055.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_202055.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201201_225647.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201201_225647.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210227_173046.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210227_173046.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210227_173628.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210227_173628.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210301_232449.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20210301_232449.jpg"
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4619.JPG",
@@ -2958,8 +3031,7 @@
           ],
           "markdown": [],
           "other": []
-        },
-        "sort_order": 3
+        }
       },
       {
         "slug": "Mazda_RX8_White",
@@ -2967,12 +3039,13 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Mazda_RX8_White/Mazda_RX8_White_IMG_20211221_180920.jpg",
+        "sort_order": 2,
         "summary": {
-          "images": 87,
+          "images": 71,
           "videos": 47,
           "markdown": 0,
           "other": 0,
-          "total_assets": 134
+          "total_assets": 118
         },
         "assets": {
           "images": [
@@ -3163,22 +3236,10 @@
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144741.jpg"
             },
             {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144746.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144746.jpg"
-            },
-            {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144757.jpg",
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144757.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_131913.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_131913.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_131916.jpg",
@@ -3191,12 +3252,6 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_164659.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_171942.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_171942.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200815_190721.jpg",
@@ -3271,64 +3326,10 @@
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_142114.jpg"
             },
             {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_171543.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_171543.jpg"
-            },
-            {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201114_140424.jpg",
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201114_140424.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_172955.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_172955.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_172959.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_172959.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_173004.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_173004.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200259.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200259.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200755.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200755.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200807.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_200807.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_202055.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201125_202055.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201201_225647.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201201_225647.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100907.jpg",
@@ -3355,34 +3356,10 @@
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210130_161946.jpg"
             },
             {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210227_173046.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210227_173046.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210227_173628.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210227_173628.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210301_232449.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210301_232449.jpg"
-            },
-            {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20211221_180920.jpg",
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20211221_180920.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4635.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4635.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4637.jpg",
@@ -3738,8 +3715,7 @@
           ],
           "markdown": [],
           "other": []
-        },
-        "sort_order": 2
+        }
       },
       {
         "slug": "Mitsubhishi_Outlander",
@@ -4192,10 +4168,10 @@
         "weight": 0,
         "thumbnail_image": "Mitsubishi_Outlander/IMG_0788.jpg",
         "summary": {
-          "images": 30,
+          "images": 76,
           "videos": 3,
           "markdown": 0,
-          "other": 48,
+          "other": 2,
           "total_assets": 81
         },
         "assets": {
@@ -4379,6 +4355,282 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mitsubishi_Outlander/jpeg/Mitsubishi_Outlander_IMG_8423.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0405.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0405.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0406.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0406.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0407.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0407.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0408.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0408.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1141.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1141.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1142.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1142.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1143.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1143.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8386.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8386.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8387.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8387.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8388.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8388.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8389.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8389.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8390.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8390.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8391.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8391.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8392.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8392.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8393.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8393.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8394.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8394.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8395.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8395.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8396.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8396.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8397.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8397.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8398.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8398.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8399.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8399.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8400.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8400.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8401.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8401.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8402.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8402.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8403.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8403.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8404.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8404.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8405.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8405.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8406.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8406.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8407.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8407.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8408.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8408.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8409.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8409.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8410.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8410.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8411.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8411.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8412.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8412.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8413.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8413.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8414.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8414.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8415.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8415.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8416.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8416.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8417.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8417.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8418.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8418.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8419.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8419.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8420.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8420.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8421.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8421.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8422.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8422.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8423.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8423.jpg"
+            },
+            {
+              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8424.HEIC",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8424.jpg"
             }
           ],
           "videos": [
@@ -4407,236 +4659,6 @@
             },
             {
               "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_desktop.ini",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0405.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0406.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0407.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0408.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1141.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1142.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_1143.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8386.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8387.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8388.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8389.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8390.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8391.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8392.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8393.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8394.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8395.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8396.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8397.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8398.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8399.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8400.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8401.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8402.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8403.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8404.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8405.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8406.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8407.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8408.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8409.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8410.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8411.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8412.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8413.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8414.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8415.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8416.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8417.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8418.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8419.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8420.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8421.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8422.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8423.HEIC",
-              "type": "unknown",
-              "location": "remote"
-            },
-            {
-              "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8424.HEIC",
               "type": "unknown",
               "location": "remote"
             }
@@ -5225,6 +5247,7 @@
         "type": "car",
         "weight": 10,
         "thumbnail_image": "Subaru_Forester_Silver/IMG_20200107_194417.jpg",
+        "acquired_year": 2003,
         "summary": {
           "images": 8,
           "videos": 0,
@@ -5297,8 +5320,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2003
+        }
       },
       {
         "slug": "Subaru_Impreza_1999_Wagon",
@@ -5306,6 +5328,7 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Subaru_Impreza_1999_Wagon/IMG_20180407_114721.jpg",
+        "acquired_year": 1999,
         "summary": {
           "images": 3,
           "videos": 0,
@@ -5337,8 +5360,7 @@
           "videos": [],
           "markdown": [],
           "other": []
-        },
-        "acquired_year": 1999
+        }
       },
       {
         "slug": "Subaru_Legacy_2001_Stolen",
@@ -5346,6 +5368,7 @@
         "type": "car",
         "weight": 0,
         "thumbnail_image": "Subaru_Legacy_2001_Stolen/82865330_2961292537254978_4901427918124613632_n.jpg",
+        "acquired_year": 2001,
         "summary": {
           "images": 12,
           "videos": 0,
@@ -5438,8 +5461,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 2001
+        }
       },
       {
         "slug": "Subaru_Legacy_Ali",
@@ -5814,7 +5836,7 @@
               "type": "markdown",
               "location": "local",
               "metadata": {
-                "title": "CFMOTO MT650",
+                "title": "CFMOTO MT650 IN",
                 "weight": 50,
                 "type": "motorcycle"
               }
@@ -6663,6 +6685,7 @@
         "type": "garage",
         "weight": 10,
         "thumbnail_image": "Subaru_Legacy_1999_Parts/IMG_20180622_141637.jpg",
+        "acquired_year": 1999,
         "summary": {
           "images": 2,
           "videos": 0,
@@ -6699,8 +6722,7 @@
             }
           ],
           "other": []
-        },
-        "acquired_year": 1999
+        }
       }
     ]
   }

@@ -5,8 +5,8 @@ weight: 10
 ---
 # Subaru Legacy Parts(Silver - Parts Car)
 
-It was the same as mine, but in station wagon form. It had great exhaust, lots of goodies like boost gauge etc. and good panels. The cam belt broke on this one and the owner just wanted to get rid of it.
+Same model as mine but in station wagon form, and it came loaded with useful hardware — a great exhaust, a boost gauge, solid body panels, and various other bits worth having. The cam belt had snapped and the owner simply wanted it gone.
 
-This is where I learned about the need for impact tools because traditional screwdrivers and spanners cannot unlock very tight bolts (like the seatbelt ones).
+That was fine. This was never going to be a runner — it was a source of parts, and a good one. It was also during the process of stripping this car that I learned about the necessity of impact tools. Traditional screwdrivers and spanners simply cannot break certain bolts free; seatbelt bolts in particular were seized so tight that nothing short of an impact wrench would shift them. Another lesson filed away for future jobs.
 
-**Result**: Sold some of the parts as parts and scrapped the rest.
+**Result**: Some components sold individually as parts, the rest scrapped.

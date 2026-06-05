@@ -3,8 +3,15 @@ import shutil
 import json
 import argparse
 import logging
-from PIL import Image
+import copy
+from PIL import Image, UnidentifiedImageError
 import mimetypes
+from datetime import datetime, timezone
+
+try:
+    from pillow_heif import register_heif_opener
+except ImportError:
+    register_heif_opener = None
 
 # Configuration
 REPO_PATH = '/Users/prasanthsasikumar/Downloads/vehicles'
@@ -19,7 +26,27 @@ MANIFEST_FILE = os.path.join(REPO_PATH, 'assets.json')
 MAX_WIDTH = 1920
 JPEG_QUALITY = 85
 
+MANIFEST_SCHEMA_VERSION = 2
+MANIFEST_CATEGORIES = ('cars', 'motorcycles', 'garages')
+DEFAULT_CATEGORY_BY_TYPE = {
+    'car': 'cars',
+    'motorcycle': 'motorcycles',
+    'garage': 'garages',
+}
+DEFAULT_TYPE_BY_CATEGORY = {
+    'cars': 'car',
+    'motorcycles': 'motorcycle',
+    'garages': 'garage',
+}
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+HEIF_SUPPORT_ENABLED = False
+UNSUPPORTED_IMAGE_WARNINGS = set()
+
+if register_heif_opener is not None:
+    register_heif_opener()
+    HEIF_SUPPORT_ENABLED = True
 
 def setup_logging():
     pass # Already done above
@@ -31,6 +58,27 @@ def is_image(filename):
 def is_video(filename):
     mtype, _ = mimetypes.guess_type(filename)
     return mtype and mtype.startswith('video')
+
+
+def log_skipped_image(src_path, error):
+    extension = os.path.splitext(src_path)[1].lower() or '<no extension>'
+
+    if extension in {'.heic', '.heif'} and not HEIF_SUPPORT_ENABLED:
+        warning_key = ('heif-missing', extension)
+        if warning_key not in UNSUPPORTED_IMAGE_WARNINGS:
+            logging.warning(
+                'Skipping %s images because HEIC/HEIF support is not installed in the active environment.',
+                extension,
+            )
+            UNSUPPORTED_IMAGE_WARNINGS.add(warning_key)
+        return
+
+    warning_key = (extension, type(error).__name__)
+    if warning_key in UNSUPPORTED_IMAGE_WARNINGS:
+        return
+
+    logging.warning('Skipping unsupported image format %s: %s', extension, error)
+    UNSUPPORTED_IMAGE_WARNINGS.add(warning_key)
 
 def optimize_image(src_path, dest_path):
     """
@@ -54,6 +102,12 @@ def optimize_image(src_path, dest_path):
             
             img.save(final_dest, 'JPEG', quality=JPEG_QUALITY, optimize=True)
             return final_dest
+    except UnidentifiedImageError as e:
+        log_skipped_image(src_path, e)
+        return None
+    except OSError as e:
+        log_skipped_image(src_path, e)
+        return None
     except Exception as e:
         logging.error(f"Failed to optimize {src_path}: {e}")
         return None
@@ -61,6 +115,176 @@ def optimize_image(src_path, dest_path):
 
 def is_markdown(filename):
     return filename.lower().endswith('.md')
+
+
+def default_vehicle_display_name(slug):
+    return slug.replace('_', ' ')
+
+
+def infer_vehicle_slug(rel_path):
+    normalized = rel_path.replace('\\', '/')
+    top_level = normalized.split('/', 1)[0]
+    if top_level in ('', '.'):
+        return None
+    return top_level
+
+
+def infer_category_for_vehicle(vehicle_data):
+    vehicle_type = vehicle_data.get('type')
+    return DEFAULT_CATEGORY_BY_TYPE.get(vehicle_type, 'cars')
+
+
+def empty_asset_buckets():
+    return {
+        'images': [],
+        'videos': [],
+        'markdown': [],
+        'other': [],
+    }
+
+
+def asset_bucket_name(asset_type):
+    return {
+        'image': 'images',
+        'video': 'videos',
+        'markdown': 'markdown',
+    }.get(asset_type, 'other')
+
+
+def load_existing_manifest():
+    if not os.path.exists(MANIFEST_FILE):
+        return None, {}, {}, {category: [] for category in MANIFEST_CATEGORIES}
+
+    with open(MANIFEST_FILE, 'r') as f:
+        try:
+            manifest = json.load(f)
+        except json.JSONDecodeError:
+            return None, {}, {}, {category: [] for category in MANIFEST_CATEGORIES}
+
+    known_paths = {}
+    vehicle_info = {}
+    vehicle_order = {category: [] for category in MANIFEST_CATEGORIES}
+
+    if isinstance(manifest, list):
+        for asset in manifest:
+            if isinstance(asset, dict) and 'original_path' in asset:
+                known_paths[asset['original_path']] = asset
+        return manifest, known_paths, vehicle_info, vehicle_order
+
+    if not isinstance(manifest, dict):
+        return manifest, known_paths, vehicle_info, vehicle_order
+
+    vehicles = manifest.get('vehicles', {})
+    for category, entries in vehicles.items():
+        if category not in vehicle_order:
+            vehicle_order[category] = []
+        for vehicle in entries:
+            slug = vehicle.get('slug')
+            if not slug:
+                continue
+
+            vehicle_order[category].append(slug)
+            vehicle_info[slug] = {
+                'category': category,
+                'data': {
+                    key: copy.deepcopy(value)
+                    for key, value in vehicle.items()
+                    if key not in {'assets', 'summary'}
+                },
+            }
+
+            for bucket in vehicle.get('assets', {}).values():
+                for asset in bucket:
+                    if isinstance(asset, dict) and 'original_path' in asset:
+                        known_paths[asset['original_path']] = copy.deepcopy(asset)
+
+    return manifest, known_paths, vehicle_info, vehicle_order
+
+
+def build_nested_manifest(collected_assets, vehicle_info, vehicle_order):
+    assets_by_slug = {slug: empty_asset_buckets() for slug in vehicle_info}
+
+    for rel_path, asset in collected_assets.items():
+        slug = infer_vehicle_slug(rel_path)
+        if not slug:
+            continue
+        assets_by_slug.setdefault(slug, empty_asset_buckets())
+        bucket = asset_bucket_name(asset.get('type'))
+        assets_by_slug[slug][bucket].append(asset)
+
+    vehicles_out = {category: [] for category in MANIFEST_CATEGORIES}
+    total_assets = 0
+    total_vehicles = 0
+    seen_slugs = set()
+
+    for category in vehicle_order:
+        for slug in vehicle_order[category]:
+            seen_slugs.add(slug)
+
+    for slug in assets_by_slug:
+        if slug not in seen_slugs:
+            category = vehicle_info.get(slug, {}).get('category')
+            if not category:
+                category = infer_category_for_vehicle(vehicle_info.get(slug, {}).get('data', {}))
+            vehicle_order.setdefault(category, []).append(slug)
+
+    for category in MANIFEST_CATEGORIES:
+        ordered_slugs = vehicle_order.get(category, [])
+        for slug in ordered_slugs:
+            buckets = assets_by_slug.get(slug, empty_asset_buckets())
+            normalized_buckets = {
+                name: sorted(values, key=lambda asset: asset['original_path'].lower())
+                for name, values in buckets.items()
+            }
+
+            vehicle_data = copy.deepcopy(vehicle_info.get(slug, {}).get('data', {}))
+            vehicle_data.setdefault('slug', slug)
+            vehicle_data.setdefault('display_name', default_vehicle_display_name(slug))
+            vehicle_data.setdefault('type', DEFAULT_TYPE_BY_CATEGORY.get(category, 'car'))
+            vehicle_data.setdefault('weight', 0)
+
+            image_paths = []
+            for image in normalized_buckets['images']:
+                image_paths.append(image['original_path'])
+                if image.get('optimized_path'):
+                    image_paths.append(image['optimized_path'])
+
+            thumbnail = vehicle_data.get('thumbnail_image')
+            if thumbnail not in image_paths:
+                if normalized_buckets['images']:
+                    fallback = normalized_buckets['images'][0]
+                    vehicle_data['thumbnail_image'] = fallback.get('optimized_path') or fallback['original_path']
+                else:
+                    vehicle_data.pop('thumbnail_image', None)
+
+            summary = {
+                'images': len(normalized_buckets['images']),
+                'videos': len(normalized_buckets['videos']),
+                'markdown': len(normalized_buckets['markdown']),
+                'other': len(normalized_buckets['other']),
+            }
+            summary['total_assets'] = sum(summary.values())
+
+            vehicle_data['summary'] = summary
+            vehicle_data['assets'] = normalized_buckets
+            vehicles_out[category].append(vehicle_data)
+
+            total_assets += summary['total_assets']
+            total_vehicles += 1
+
+    return {
+        'schema_version': MANIFEST_SCHEMA_VERSION,
+        'generated_at': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        'summary': {
+            'total_vehicles': total_vehicles,
+            'total_assets': total_assets,
+            'categories': {
+                category: len(vehicles_out[category])
+                for category in MANIFEST_CATEGORIES
+            },
+        },
+        'vehicles': vehicles_out,
+    }
 
 def parse_frontmatter(path):
     """
@@ -202,22 +426,16 @@ def sync():
     logging.info("Starting Sync...")
     
     # Load existing manifest to track what we know
-    if os.path.exists(MANIFEST_FILE):
-        with open(MANIFEST_FILE, 'r') as f:
-            try:
-                current_assets = json.load(f)
-            except json.JSONDecodeError:
-                current_assets = []
-    else:
-        current_assets = []
-
-    # Map of known original paths to entries
-    known_paths = {a['original_path']: a for a in current_assets}
-    new_assets = []
+    _, known_paths, vehicle_info, vehicle_order = load_existing_manifest()
+    collected_assets = {}
 
     # 1. Scan Drive (for media)
     for root, dirs, files in os.walk(DRIVE_PATH):
+        dirs[:] = [directory for directory in dirs if not directory.startswith('.')]
         rel_dir = os.path.relpath(root, DRIVE_PATH)
+
+        if rel_dir == '.':
+            continue
         
         # Ensure local repo dir exists for optimization
         repo_dir = os.path.join(REPO_PATH, rel_dir)
@@ -230,40 +448,69 @@ def sync():
 
             drive_path = os.path.join(root, filename)
             rel_path = os.path.join(rel_dir, filename)
-            
-            # Check if we already know this file
-            if rel_path in known_paths:
-                new_assets.append(known_paths[rel_path])
+            slug = infer_vehicle_slug(rel_path)
+            if not slug:
                 continue
             
-            # New File!
-            logging.info(f"New file detected in Drive: {rel_path}")
-            
-            asset_entry = {
+            # Check if we already know this file
+            known_entry = copy.deepcopy(known_paths.get(rel_path))
+            asset_entry = known_entry or {
                 "original_path": rel_path,
                 "type": "unknown",
                 "location": "remote"
             }
 
+            if not known_entry:
+                logging.info(f"New file detected in Drive: {rel_path}")
+
             if is_image(filename):
                 asset_entry["type"] = "image"
-                dest_optimized = os.path.join(repo_dir, filename)
-                final_optimized_path = optimize_image(drive_path, dest_optimized)
-                
-                if final_optimized_path:
-                     rel_opt_path = os.path.relpath(final_optimized_path, REPO_PATH)
-                     asset_entry["optimized_path"] = rel_opt_path
-                     asset_entry["location"] = "hybrid"
+                optimized_path = asset_entry.get("optimized_path")
+                optimized_exists = optimized_path and os.path.exists(os.path.join(REPO_PATH, optimized_path))
+                if not optimized_exists:
+                    dest_optimized = os.path.join(repo_dir, filename)
+                    final_optimized_path = optimize_image(drive_path, dest_optimized)
+
+                    if final_optimized_path:
+                        rel_opt_path = os.path.relpath(final_optimized_path, REPO_PATH)
+                        asset_entry["optimized_path"] = rel_opt_path
+                        asset_entry["location"] = "hybrid"
+                    else:
+                        asset_entry.pop("optimized_path", None)
+                        asset_entry["location"] = "remote"
+                else:
+                    asset_entry["location"] = "hybrid"
             
             elif is_video(filename):
                 asset_entry["type"] = "video"
+                asset_entry["location"] = "remote"
             
-            new_assets.append(asset_entry)
+            collected_assets[rel_path] = asset_entry
+
+    # Remove orphaned optimized files when the source asset no longer exists in Drive.
+    for rel_path, asset_entry in known_paths.items():
+        if rel_path in collected_assets or asset_entry.get('type') == 'markdown':
+            continue
+
+        optimized_path = asset_entry.get('optimized_path')
+        if not optimized_path:
+            continue
+
+        optimized_full_path = os.path.join(REPO_PATH, optimized_path)
+        if os.path.exists(optimized_full_path):
+            os.remove(optimized_full_path)
+            logging.info(f"Removed orphaned optimized file: {optimized_path}")
             
     # 2. Scan Repo (for markdown/local files that are NOT in drive)
     for root, dirs, files in os.walk(REPO_PATH):
-        if '.git' in root or 'node_modules' in root:
-             continue
+        dirs[:] = [
+            directory for directory in dirs
+            if directory not in {'.git', 'node_modules', '.venv', '__pycache__'}
+            and not directory.startswith('.')
+        ]
+
+        if '.git' in root or 'node_modules' in root or '.venv' in root:
+            continue
              
         rel_dir = os.path.relpath(root, REPO_PATH)
         
@@ -283,27 +530,22 @@ def sync():
                 full_path = os.path.join(root, filename)
                 metadata = parse_frontmatter(full_path)
 
-                exists = False
-                for a in new_assets:
-                    if a['original_path'] == rel_path:
-                        # Update metadata if it exists
-                        a['metadata'] = metadata
-                        exists = True
-                        break
-                
-                if not exists:
-                     logging.info(f"New Markdown detected in Repo: {rel_path}")
-                     asset_entry = {
-                        "original_path": rel_path,
-                        "type": "markdown",
-                        "location": "local",
-                        "metadata": metadata
-                    }
-                     new_assets.append(asset_entry)
+                asset_entry = copy.deepcopy(collected_assets.get(rel_path) or known_paths.get(rel_path) or {})
+                if not asset_entry:
+                    logging.info(f"New Markdown detected in Repo: {rel_path}")
+
+                asset_entry.update({
+                    "original_path": rel_path,
+                    "type": "markdown",
+                    "location": "local",
+                    "metadata": metadata,
+                })
+                collected_assets[rel_path] = asset_entry
 
     # Write Updated Manifest
+    manifest = build_nested_manifest(collected_assets, vehicle_info, vehicle_order)
     with open(MANIFEST_FILE, 'w') as f:
-        json.dump(new_assets, f, indent=2)
+        json.dump(manifest, f, indent=2)
     
     logging.info("Sync Complete.")
 

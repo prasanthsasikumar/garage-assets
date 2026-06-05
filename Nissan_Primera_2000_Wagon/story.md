@@ -5,10 +5,12 @@ weight: 10
 ---
 # Nissan Primera (2018)
 
-At this point I have made money on one car (the Integra) and got a couple of cars for my friends for cheap. So I decided that it would be great to find a cheap car and fix it up and sell it. So I bought this from the Turners auction for end-of-life cars.
+By this point I had already turned a profit on the Integra and helped a few friends find cheap cars. That small success planted an idea: buy something rough, fix it up, and sell it for a gain. So I picked up this Nissan Primera at a Turners end-of-life auction.
 
-Only when I got the car I realized that there are more issues that I need to sort out than expected. With Integra and the Legacy I realized that I can buy cheap media players for the car and that would massively increase the value of the car. This is because these new media decks have been sold in Chinese websites like Alibaba for very cheap as they mass produce it - earlier technology made it very expensive to have the functionalities and with the popularity of Bluetooth, everyone likes a car with Bluetooth audio. And these markets would only present itself for a short period before it becomes too easy and every old car would be retrofitted and new cars anyway will have it.
+Once it arrived, the list of issues turned out to be longer than expected. From working on the Integra and the Legacy, I had already learned that fitting a cheap aftermarket head unit could dramatically lift a car's perceived value. Bluetooth audio had become the single feature every buyer wanted, and Chinese-made head units sourced through Alibaba had brought the cost down to almost nothing. It was one of those market windows that only exists briefly, before every old car gets retrofitted and the advantage disappears.
 
-I fixed the rust patches in the front - learning how to do body work in the process. I made all the necessary changes and was about to take the car for inspection for Warrant of Fitness. I was cleaning the car by removing the wiper blades and my hand accidentally slipped and hit the windshield. It broke and if I replaced the glass professionally it would mean no profit for me. So I decided to do it myself. Found replacement glass at Pick-A-Part. Took it out myself and learned how to install glass. Every car taught something new.
+I worked through the rust patches at the front, teaching myself basic bodywork in the process. With everything sorted and the car nearly ready for a Warrant of Fitness, I was doing a final clean — removing the wiper blades — when my hand slipped and punched straight through the windscreen. A professional replacement would have wiped out any remaining margin. So I found a replacement screen at Pick-A-Part, pulled it out myself, and learned how to fit glass on the job.
 
-Later on I sold the car for a profit but it took more time to sell because of the delay.
+Every car taught something new. This one taught me bodywork, glass fitting, and the importance of being careful during the final clean.
+
+The car sold at a profit in the end, though the broken windscreen cost time and delayed the sale.

@@ -5,10 +5,12 @@ weight: 10
 ---
 # Honda CRV
 
-We got this car because it was a steal. We got it for $350 NZD - with fog lamps, sunroof and lots of other accessories.
+We got this car because it was a steal — $350 NZD, complete with fog lamps, a sunroof, and a range of accessories already fitted.
 
-**Only issue**: Blown headgasket.
+**Only issue**: blown head gasket.
 
-We knew the issue - so decided to use the car until it dies because it was so cheap. It did not die, we used it for a couple of years and went through multiple Warrant of Fitness without an issue until we pushed it enough to the point where the car would overheat in about 30 minutes.
+We knew exactly what we were getting into, so the plan was simple: drive it until it gave up. It never did. For a couple of years we put it through its paces and it passed multiple Warrant of Fitness checks without protest. Eventually the overheating caught up with us — around the thirty-minute mark on any drive, the temperature gauge would climb and we would have to stop.
 
-So I decided to remove the head, resurface it and install new headgaskets. It was too ambitious for my experience. Though I did everything right, the new headgasket blew right after. Since all that effort went into the drain, we sold the car for scrap. It was a really nice car with lots of good memories.
+That was the cue to attempt a proper repair. I pulled the head, had the surface machined, and fitted new gaskets — an ambitious undertaking given my experience at the time. I did everything by the book, but the new head gasket blew almost immediately after the first start. All that effort, and we were back to square one.
+
+We sold the car for scrap. It was a genuinely nice machine with a lot of good memories attached, and it taught me something important: some repairs demand more experience than enthusiasm alone can carry.
