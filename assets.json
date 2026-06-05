@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-05T21:13:48+00:00",
+  "generated_at": "2026-06-05T21:23:47+00:00",
   "summary": {
     "total_vehicles": 56,
     "total_assets": 903,
@@ -2304,14 +2304,14 @@
         "display_name": "Mazda RX8 Parts",
         "type": "car",
         "weight": 0,
-        "thumbnail_image": "Mazda_RX8_Parts/IMG_20200815_131913.jpg",
+        "thumbnail_image": "Mazda_RX8_Parts/IMG_20201205_100925.jpg",
         "sort_order": 4,
         "summary": {
-          "images": 3,
+          "images": 6,
           "videos": 2,
           "markdown": 0,
           "other": 0,
-          "total_assets": 5
+          "total_assets": 8
         },
         "assets": {
           "images": [
@@ -2332,6 +2332,24 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_Parts/IMG_20200906_121128.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Parts/IMG_20201205_100907.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Parts/IMG_20201205_100907.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Parts/IMG_20201205_100911.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Parts/IMG_20201205_100911.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Parts/IMG_20201205_100925.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Parts/IMG_20201205_100925.jpg"
             }
           ],
           "videos": [
@@ -2358,11 +2376,11 @@
         "thumbnail_image": "Mazda_RX8_Purple/Mazda_RX8_Purple_2_RightSide.jpg",
         "sort_order": 3,
         "summary": {
-          "images": 105,
+          "images": 111,
           "videos": 6,
           "markdown": 0,
           "other": 0,
-          "total_assets": 111
+          "total_assets": 117
         },
         "assets": {
           "images": [
@@ -2433,10 +2451,34 @@
               "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_dqs 2021-01-18 233746.399.jpg"
             },
             {
-              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200907_171543.jpg",
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200709_111303.jpg",
               "type": "image",
               "location": "hybrid",
-              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200907_171543.jpg"
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200709_111303.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200710_105946.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200710_105946.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200711_144739.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200711_144739.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200711_144741.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20200711_144741.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201114_140424.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201114_140424.jpg"
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_20201125_172955.jpg",
@@ -2551,6 +2593,18 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4632.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4637.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4637.jpg"
+            },
+            {
+              "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4638.jpg",
+              "type": "image",
+              "location": "hybrid",
+              "optimized_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4638.jpg"
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_IMG_4764.JPG",
@@ -3041,11 +3095,11 @@
         "thumbnail_image": "Mazda_RX8_White/Mazda_RX8_White_IMG_20211221_180920.jpg",
         "sort_order": 2,
         "summary": {
-          "images": 71,
+          "images": 62,
           "videos": 47,
           "markdown": 0,
           "other": 0,
-          "total_assets": 118
+          "total_assets": 109
         },
         "assets": {
           "images": [
@@ -3212,30 +3266,6 @@
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200308_125443.jpg"
             },
             {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200709_111303.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200709_111303.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200710_105946.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200710_105946.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144739.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144739.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144741.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144741.jpg"
-            },
-            {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200711_144757.jpg",
               "type": "image",
               "location": "hybrid",
@@ -3326,28 +3356,10 @@
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_142114.jpg"
             },
             {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201114_140424.jpg",
+              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_171543.jpg",
               "type": "image",
               "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201114_140424.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100907.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100907.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100911.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100911.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100925.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20201205_100925.jpg"
+              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20200907_171543.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20210130_161946.jpg",
@@ -3360,18 +3372,6 @@
               "type": "image",
               "location": "hybrid",
               "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_20211221_180920.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4637.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4637.jpg"
-            },
-            {
-              "original_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4638.jpg",
-              "type": "image",
-              "location": "hybrid",
-              "optimized_path": "Mazda_RX8_White/Mazda_RX8_White_IMG_4638.jpg"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_PHOTO-2025-12-15-21-52-52 2.jpg",
