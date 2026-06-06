@@ -4,6 +4,7 @@ import json
 import argparse
 import logging
 import copy
+import subprocess
 from PIL import Image, UnidentifiedImageError
 import mimetypes
 from datetime import datetime, timezone
@@ -25,6 +26,11 @@ MANIFEST_FILE = os.path.join(REPO_PATH, 'assets.json')
 # Optimization Settings
 MAX_WIDTH = 1920
 JPEG_QUALITY = 85
+
+# Video sync settings
+MAX_VIDEO_SIZE_BYTES = 100 * 1024 * 1024
+TARGET_VIDEO_SIZE_BYTES = 95 * 1024 * 1024  # 5MB headroom below limit
+AUDIO_BITRATE_KBPS = 128
 
 MANIFEST_SCHEMA_VERSION = 2
 MANIFEST_CATEGORIES = ('cars', 'motorcycles', 'garages')
@@ -326,6 +332,152 @@ def parse_frontmatter(path):
     return metadata
 
 
+def get_video_duration(path):
+    result = subprocess.run(
+        ['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
+         '-of', 'default=noprint_wrappers=1:nokey=1', path],
+        capture_output=True, text=True,
+    )
+    try:
+        return float(result.stdout.strip())
+    except (ValueError, AttributeError):
+        return None
+
+
+def compress_video(src_path, dest_path):
+    """
+    Compress video to fit under MAX_VIDEO_SIZE_BYTES using 2-pass H.264.
+    Output is always .mp4. Resolution is scaled to 720p or 480p when the
+    calculated bitrate would otherwise be too low for acceptable quality.
+    Returns final dest path on success, None on failure.
+    """
+    base, _ = os.path.splitext(dest_path)
+    final_dest = base + '.mp4'
+
+    duration = get_video_duration(src_path)
+    if not duration or duration <= 0:
+        logging.error(f"Could not determine duration for {src_path}")
+        return None
+
+    total_kbps = (TARGET_VIDEO_SIZE_BYTES * 8) / (duration * 1000)
+    video_kbps = max(int(total_kbps) - AUDIO_BITRATE_KBPS, 100)
+
+    vf_args = []
+    if video_kbps < 300:
+        vf_args = ['-vf', 'scale=854:480:force_original_aspect_ratio=decrease,scale=trunc(iw/2)*2:trunc(ih/2)*2']
+    elif video_kbps < 700:
+        vf_args = ['-vf', 'scale=1280:720:force_original_aspect_ratio=decrease,scale=trunc(iw/2)*2:trunc(ih/2)*2']
+
+    passlog = final_dest + '.passlog'
+    try:
+        pass1 = subprocess.run(
+            ['ffmpeg', '-y', '-i', src_path,
+             '-c:v', 'libx264', '-b:v', f'{video_kbps}k',
+             '-pass', '1', '-passlogfile', passlog,
+             *vf_args, '-an', '-f', 'null', '/dev/null'],
+            capture_output=True,
+        )
+        if pass1.returncode != 0:
+            logging.error(f"FFmpeg pass 1 failed: {pass1.stderr.decode()[-500:]}")
+            return None
+
+        pass2 = subprocess.run(
+            ['ffmpeg', '-y', '-i', src_path,
+             '-c:v', 'libx264', '-b:v', f'{video_kbps}k',
+             '-pass', '2', '-passlogfile', passlog,
+             *vf_args, '-c:a', 'aac', '-b:a', f'{AUDIO_BITRATE_KBPS}k',
+             final_dest],
+            capture_output=True,
+        )
+        if pass2.returncode != 0:
+            logging.error(f"FFmpeg pass 2 failed: {pass2.stderr.decode()[-500:]}")
+            return None
+
+        actual_mb = os.path.getsize(final_dest) / 1024 / 1024
+        logging.info(f"Compressed to {actual_mb:.1f}MB: {os.path.basename(final_dest)}")
+        return final_dest
+
+    except Exception as e:
+        logging.error(f"compress_video error for {src_path}: {e}")
+        return None
+    finally:
+        for suffix in ['', '-0.log', '-0.log.mbtree']:
+            p = passlog + suffix
+            if os.path.exists(p):
+                os.remove(p)
+
+
+def video_sync():
+    """
+    Copies all videos from Drive to Repo:
+    - Files <= 100MB: copied directly (converted to .mp4)
+    - Files > 100MB: compressed via 2-pass H.264 to fit under 100MB
+    Existing manifest entries are preserved; video entries are updated with
+    location='local' and a local_path pointing to the repo copy.
+    """
+    logging.info("Starting video sync...")
+
+    _, known_paths, vehicle_info, vehicle_order = load_existing_manifest()
+    collected_assets = {k: copy.deepcopy(v) for k, v in known_paths.items()}
+
+    for root, dirs, files in os.walk(DRIVE_PATH):
+        dirs[:] = [d for d in dirs if not d.startswith('.')]
+        rel_dir = os.path.relpath(root, DRIVE_PATH)
+        if rel_dir == '.':
+            continue
+
+        repo_dir = os.path.join(REPO_PATH, rel_dir)
+        os.makedirs(repo_dir, exist_ok=True)
+
+        for filename in files:
+            if not is_video(filename):
+                continue
+
+            drive_path = os.path.join(root, filename)
+            rel_path = os.path.join(rel_dir, filename)
+            base, _ = os.path.splitext(filename)
+            local_filename = base + '.mp4'
+            local_rel_path = os.path.join(rel_dir, local_filename)
+            local_full_path = os.path.join(repo_dir, local_filename)
+
+            existing = collected_assets.get(rel_path)
+            if existing and existing.get('location') == 'local' and os.path.exists(local_full_path):
+                logging.info(f"Already synced, skipping: {rel_path}")
+                continue
+
+            file_size = os.path.getsize(drive_path)
+            asset_entry = copy.deepcopy(existing) if existing else {
+                'original_path': rel_path,
+                'type': 'video',
+            }
+
+            if file_size <= MAX_VIDEO_SIZE_BYTES:
+                logging.info(f"Copying {filename} ({file_size / 1024 / 1024:.1f}MB)...")
+                shutil.copy2(drive_path, local_full_path)
+                asset_entry['location'] = 'local'
+                if local_rel_path != rel_path:
+                    asset_entry['local_path'] = local_rel_path
+            else:
+                src_mb = file_size / 1024 / 1024
+                logging.info(f"Compressing {filename} ({src_mb:.1f}MB → target 95MB)...")
+                result = compress_video(drive_path, local_full_path)
+                if result:
+                    asset_entry['local_path'] = os.path.relpath(result, REPO_PATH)
+                    asset_entry['location'] = 'local'
+                    asset_entry['compressed'] = True
+                else:
+                    asset_entry['location'] = 'remote'
+                    logging.warning(f"Compression failed for {filename}, keeping as remote-only")
+
+            collected_assets[rel_path] = asset_entry
+
+    manifest = build_nested_manifest(collected_assets, vehicle_info, vehicle_order)
+    with open(MANIFEST_FILE, 'w') as f:
+        json.dump(manifest, f, indent=2)
+
+    logging.info("Video sync complete.")
+
+
 def migrate():
     """
     One-time migration:
@@ -551,11 +703,17 @@ def sync():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('command', choices=['migrate', 'sync'], help='migrate: initial move to drive; sync: update from drive')
+    parser.add_argument(
+        'command',
+        choices=['migrate', 'sync', 'video_sync'],
+        help='migrate: initial move to drive; sync: update from drive; video_sync: copy/compress videos from drive to repo',
+    )
     args = parser.parse_args()
-    
+
     if args.command == 'migrate':
         migrate()
-    else:
+    elif args.command == 'sync':
         sync()
+    else:
+        video_sync()
 

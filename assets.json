@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-05T21:23:47+00:00",
+  "generated_at": "2026-06-06T23:18:59+00:00",
   "summary": {
     "total_vehicles": 56,
     "total_assets": 903,
@@ -589,52 +589,52 @@
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20180607_145740.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20210801_092107 Copy 01.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20210801_092107.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20210801_101841.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20210801_121719.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VID_20210801_173121.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VIDEO-2025-12-15-21-53-39 2.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VIDEO-2025-12-15-21-53-39.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VIDEO-2025-12-15-21-53-40.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Subaru_Legacy_2001/Subaru_Legacy_Main_VIDEO-2025-12-15-21-53-50.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [
@@ -1732,12 +1732,14 @@
             {
               "original_path": "Ford_Econovan_camper/Ford_Econovan_camper_IMG_5380.MOV",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Ford_Econovan_camper/Ford_Econovan_camper_IMG_5380.mp4"
             },
             {
               "original_path": "Ford_Econovan_camper/Ford_Econovan_camper_IMG_5382.MOV",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Ford_Econovan_camper/Ford_Econovan_camper_IMG_5382.mp4"
             }
           ],
           "markdown": [],
@@ -2356,12 +2358,14 @@
             {
               "original_path": "Mazda_RX8_Parts/Mazda_RX8_Parts_VID_20200229_113521-004.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Parts/Mazda_RX8_Parts_VID_20200229_113521-004.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Parts/Mazda_RX8_Parts_VIDEO-2025-12-15-21-53-27 2.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [],
@@ -3055,32 +3059,42 @@
             {
               "original_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH010002.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH010002.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH010004.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH010004.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH020005.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Purple/Exhaust Videos/Mazda_RX8_Purple_GH020005.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_GH010005-008.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_GH010005-008.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_RX8_Exhaust.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_RX8_Exhaust.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_Purple/Mazda_RX8_Purple_VIDEO-2025-12-15-21-53-42.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [],
@@ -3480,237 +3494,249 @@
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_dji_export_1638075064944.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20190923_170337.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20190923_172620.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20190923_173119.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_140037.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_140138.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_140230.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_140325.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_140454.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20191208_201855.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200223_093318.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200223_114025.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200227_184640.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200227_185459.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200229_093656.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200308_121432.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200308_122918.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200308_151218.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200308_151218.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_155438.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_155438.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_160233.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_160233.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_160559.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_164210.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200418_164313.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200815_172041.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200815_172129.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200821_123615.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200821_123632.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200821_123712.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200829_162810.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200829_162810.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200830_181710.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200906_114712.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200906_114730.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200906_114749.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20200906_114840.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210130_114539.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210130_114610.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210301_205823.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210304_022103.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210312_201019.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20210313_133357.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20211128_161441.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VID_20211128_161508.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VIDEO-2025-12-15-21-53-27.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VIDEO-2025-12-15-21-53-39 3.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/Mazda_RX8_White_VIDEO-2025-12-15-21-53-41.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Mazda_RX8_White/RX8 comp Test/Mazda_RX8_White_GH010518.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/RX8 comp Test/Mazda_RX8_White_GH010518.mp4",
+              "compressed": true
             },
             {
               "original_path": "Mazda_RX8_White/RX8 comp Test/Mazda_RX8_White_GH010519.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mazda_RX8_White/RX8 comp Test/Mazda_RX8_White_GH010519.mp4",
+              "compressed": true
             }
           ],
           "markdown": [],
@@ -4637,17 +4663,21 @@
             {
               "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0409.MOV",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0409.mp4"
             },
             {
               "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0410.MOV",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_0410.mp4"
             },
             {
               "original_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8426.MOV",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Mitsubishi_Outlander/Mitsubishi_Outlander_IMG_8426.mp4",
+              "compressed": true
             }
           ],
           "markdown": [],
@@ -5234,7 +5264,9 @@
             {
               "original_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_GH020006-001.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Subaru_Forester_Ryo/Subaru_Forester_Ryo_GH020006-001.mp4",
+              "compressed": true
             }
           ],
           "markdown": [],
@@ -5612,7 +5644,7 @@
             {
               "original_path": "Subaru_Legacy_Riti/Subaru_Legacy_Riti_legacy.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [],
@@ -5949,7 +5981,7 @@
             {
               "original_path": "Hyosung_GT250R/Hyosung_GT250R_VIDEO-2025-12-15-21-54-00.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [
@@ -6585,32 +6617,38 @@
             {
               "original_path": "Yamaha_R3/Yamaha_R3_GH010314.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Yamaha_R3/Yamaha_R3_GH010413-006.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Yamaha_R3/Yamaha_R3_GH010413-006.mp4",
+              "compressed": true
             },
             {
               "original_path": "Yamaha_R3/Yamaha_R3_GH020413-007.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Yamaha_R3/Yamaha_R3_GH020413-007.mp4",
+              "compressed": true
             },
             {
               "original_path": "Yamaha_R3/Yamaha_R3_GH030413.MP4",
               "type": "video",
-              "location": "remote"
+              "location": "local",
+              "local_path": "Yamaha_R3/Yamaha_R3_GH030413.mp4",
+              "compressed": true
             },
             {
               "original_path": "Yamaha_R3/Yamaha_R3_IntsaTest.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             },
             {
               "original_path": "Yamaha_R3/Yamaha_R3_R3Edited.mp4",
               "type": "video",
-              "location": "remote"
+              "location": "local"
             }
           ],
           "markdown": [
