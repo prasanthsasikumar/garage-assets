@@ -5,7 +5,7 @@ Web-optimized photos and a JSON manifest for **[The Garage](https://prasanthsasi
 one folder per vehicle.
 
 This repo is the **content backend** for the garage page. It is served as a static asset host at
-[`garrage.prasanthsasikumar.com`](https://garrage.prasanthsasikumar.com) (CORS-open via [`_headers`](_headers)), and the
+[`garage.prasanthsasikumar.com`](https://garage.prasanthsasikumar.com) (CORS-open via [`_headers`](_headers)), and the
 Nuxt site reads [`assets.json`](assets.json) at build/runtime to render the gallery. Optimized JPEGs live here in Git;
 high-resolution originals and videos stay on Google Drive so the repo stays fast to clone.
 
@@ -70,7 +70,7 @@ git push
 
 Read paths from `assets.json` rather than hard-coding them:
 
-- **Images** — use `optimized_path` for display (served from `garrage.prasanthsasikumar.com`), and `original_path` only
+- **Images** — use `optimized_path` for display (served from `garage.prasanthsasikumar.com`), and `original_path` only
   for full-resolution download links.
 - **Videos** — available remotely only; combine `original_path` with your Drive base URL.
 
